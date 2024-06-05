@@ -1,0 +1,31 @@
+* {
+    font-family: 'Noto Sans', sans-serif;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding: 0;
+}
+
+#app {
+    /* background-image: url('https://img.freepik.com/free-vector/butterfly-wedding-background-watercolor-border-design-vector_53876-136364.jpg?w=2000'); */
+    height: calc(100vh - 72px);
+}
+
+input::placeholder {
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.form-control {
+    font-size: 16px !important;
+}
+
+.hoverable:hover {
+    cursor: pointer;
+}
